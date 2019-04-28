@@ -1,0 +1,40 @@
+header {
+    font-family: 'Modak', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: mediumaquamarine;
+}
+
+#addAnimalButton {
+   position: absolute;
+   left: 90px;
+    
+}
+
+#newAnimal {
+    width: 250px
+}
+
+.animalButton {
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+  .row {
+    display: flex;
+  }
+
+  .animal-div{
+      width: 33.33%;
+      float: right;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
