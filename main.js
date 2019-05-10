@@ -35,7 +35,7 @@ $(document).ready(function () {
         var type = $(this).attr("data-type");
         console.log(type)
         $.ajax({
-            url: `http://api.giphy.com/v1/gifs/search?q=${type}&api_key=vvPqUHW20BJMl5fg2E8sxtqp1tavP8iw`,
+            url: `https://api.giphy.com/v1/gifs/search?q=${type}&api_key=vvPqUHW20BJMl5fg2E8sxtqp1tavP8iw`,
             method: "GET"
         })
             .done(res => {
